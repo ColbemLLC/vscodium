@@ -10,8 +10,7 @@
         Height="800" Width="1280"
         Icon="pack://application:,,,/.resources/favicon.png"
         ExtendsContentIntoTitleBar="True"
-        WindowBackdropType="Mica"
-        WindowCorners="Round">
+        WindowBackdropType="Mica">
 
     <Grid>
         <ui:TitleBar Title="Codium" VerticalAlignment="Top">
