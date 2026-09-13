@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="Codium"
         Height="800" Width="1280"
-        Icon="pack://application:,,,/.resources/favicon.png"
+        Icon="pack://application:,,,/resources/favicon.ico"
         ExtendsContentIntoTitleBar="True"
         WindowBackdropType="Mica"
         WindowStartupLocation="CenterScreen">
@@ -21,7 +21,7 @@
 
         <ui:TitleBar Title="Codium" Grid.Row="0" VerticalAlignment="Top">
             <ui:TitleBar.Icon>
-                <ui:ImageIcon Source="pack://application:,,,/.resources/favicon.png" />
+                <ui:ImageIcon Source="pack://application:,,,/resources/favicon.png" />
             </ui:TitleBar.Icon>
         </ui:TitleBar>
     </Grid>

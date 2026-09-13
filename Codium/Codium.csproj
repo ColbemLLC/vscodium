@@ -5,7 +5,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include=".resources\**\*" />
+    <Resource Include="resources\**\*" />
+    <Resource Include="..\resources\ico-sets\favicon.ico" Link="resources\favicon.ico" />
+    <Resource Include="..\resources\favicon.png" Link="resources\favicon.png" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -14,6 +16,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>..\resources\ico-sets\favicon.ico</ApplicationIcon>
   </PropertyGroup>
 
 </Project>
