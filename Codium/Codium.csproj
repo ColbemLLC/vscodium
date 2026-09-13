@@ -1,7 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-   <ProjectReference Include="..\wpfui\src\Wpf.Ui\Wpf.Ui.csproj" />
+    <ProjectReference Include="..\wpfui\src\Wpf.Ui\Wpf.Ui.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include=".resources\**\*" />
   </ItemGroup>
 
   <PropertyGroup>
