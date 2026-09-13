@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/wpfui/" />
+  <Folder Name="/wpfui/src/">
+    <Project Path="wpfui/src/Wpf.Ui.Abstractions/Wpf.Ui.Abstractions.csproj" />
+    <Project Path="wpfui/src/Wpf.Ui/Wpf.Ui.csproj" />
+  </Folder>
+  <Project Path="Codium.csproj" />
+</Solution>

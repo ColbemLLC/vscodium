@@ -1,0 +1,6 @@
+[submodule "wpfui"]
+	path = wpfui
+	url = https://github.com/lepoco/wpfui
+[submodule "ColorPicker"]
+	path = ColorPicker
+	url = https://github.com/PixiEditor/ColorPicker
