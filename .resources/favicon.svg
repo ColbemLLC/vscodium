@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+        
+			<defs>
+				<clipPath id="clip-shape">
+					<path d="M 256,0 C 51.2,0 0,51.2 0,256 C 0,460.8 51.2,512 256,512 C 460.8,512 512,460.8 512,256 C 512,51.2 460.8,0 256,0 Z" />
+				</clipPath>
+			</defs>
+		
+		<defs>
+			
+				<filter id="shadow-0" x="-200%" y="-200%" width="500%" height="500%">
+					<feDropShadow
+						dx="0"
+						dy="0.6"
+						stdDeviation="0.8"
+						flood-color="#000000"
+						flood-opacity="0.18"
+					/>
+				</filter>
+			
+		</defs>
+        <g clip-path="url(#clip-shape)">
+            
+            <defs>
+                <linearGradient id="bg-grad" x1="0%" y1="100%" x2="0%" y2="0%">
+                    <stop offset="0%" stop-color="#bfdbfe" /><stop offset="100%" stop-color="#3b82f6" />
+                </linearGradient>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#bg-grad)" />
+        
+			
+				<defs>
+					
+			<pattern id="bg-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+				<polyline points="0,10 10,0 20,10" fill="none" stroke="#ffffff" stroke-width="1" />
+				<polyline points="0,20 10,30 20,20" fill="none" stroke="#ffffff" stroke-width="1" />
+			</pattern>
+		
+				</defs>
+				<rect width="100%" height="100%" fill="url(#bg-pattern)" opacity="0.1" />
+			
+            <g transform="translate(256, 256) scale(10, 10) rotate(0) translate(-12, -12)" opacity="1" style="mix-blend-mode: normal" filter="url(#shadow-0)">
+			<title xmlns="http://www.w3.org/2000/svg" fill="#ffffff">solar:sledgehammer-bold</title>
+<g xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="M7.60379 4.60379C9.33965 2.86793 10.2076 2 11.2861 2C12.3646 2 13.2326 2.86793 14.9684 4.60379L19.3872 9.02256C21.123 10.7584 21.991 11.6263 21.991 12.7049C21.991 13.7834 21.123 14.6513 19.3872 16.3872C17.6513 18.123 16.7834 18.991 15.7049 18.991C14.6263 18.991 13.7584 18.123 12.0226 16.3872L7.60379 11.9684C5.86793 10.2326 5 9.36462 5 8.2861C5 7.20757 5.86793 6.33965 7.60379 4.60379Z" fill="#ffffff"/><path d="M7.284 13.7699L2.82581 18.2281C2.48337 18.5706 2.31214 18.7418 2.2093 18.9199C1.93023 19.4033 1.93023 19.9988 2.2093 20.4822C2.31214 20.6603 2.48336 20.8315 2.82578 21.1739C3.16823 21.5164 3.33948 21.6876 3.5176 21.7905C4.00097 22.0696 4.5965 22.0696 5.07987 21.7905C5.25799 21.6876 5.42921 21.5164 5.77166 21.174L10.2298 16.7158L7.284 13.7699Z" fill="#ffffff"/><path d="M8.34466 12.7093L8.34905 12.7049L11.2949 15.6507L11.2905 15.6551L8.34466 12.7093Z" fill="#ffffff"/><path d="M19.6686 7.18261C19.9233 6.7073 19.9153 6.13264 19.6445 5.66359C19.5416 5.48547 19.3704 5.31425 19.028 4.97181C18.6855 4.62936 18.5143 4.45814 18.3362 4.3553C17.8671 4.0845 17.2925 4.07647 16.8172 4.33123L19.6686 7.18261Z" fill="#ffffff"/></g>
+		</g>
+			
+        </g>
+    </svg>

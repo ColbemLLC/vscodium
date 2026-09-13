@@ -1,11 +1,51 @@
 {
   "version": 4,
   "targets": {
-    "net10.0-windows": {}
+    "net10.0-windows": {
+      "WPF-UI/4.3.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "WPF-UI.Abstractions": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/WPF-UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WPF-UI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "WPF-UI.Abstractions/4.3.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/WPF-UI.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WPF-UI.Abstractions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WPF-UI/4.3.0": {
+      "type": "project",
+      "path": "../wpfui/src/Wpf.Ui/Wpf.Ui.csproj",
+      "msbuildProject": "../wpfui/src/Wpf.Ui/Wpf.Ui.csproj"
+    },
+    "WPF-UI.Abstractions/4.3.0": {
+      "type": "project",
+      "path": "../wpfui/src/Wpf.Ui.Abstractions/Wpf.Ui.Abstractions.csproj",
+      "msbuildProject": "../wpfui/src/Wpf.Ui.Abstractions/Wpf.Ui.Abstractions.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0-windows": []
+    "net10.0-windows": [
+      "WPF-UI >= 4.3.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\maleb\\.nuget\\packages\\": {},
@@ -38,7 +78,11 @@
         "net10.0-windows": {
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\maleb\\Downloads\\vscodium\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj": {
+              "projectPath": "C:\\Users\\maleb\\Downloads\\vscodium\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
