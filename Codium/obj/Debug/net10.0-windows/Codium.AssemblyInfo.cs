@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Codium")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e711bbec09ca90a5f1bdbba4a30ecadeb920a385")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61e51bc6ae9a1ba60002f19ff9c8ab0fa64f246b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Codium")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Codium")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
