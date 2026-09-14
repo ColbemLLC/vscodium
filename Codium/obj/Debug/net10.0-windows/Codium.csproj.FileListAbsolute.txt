@@ -28,3 +28,6 @@ C:\Users\maleb\Downloads\vscodium\Codium\bin\Debug\net10.0-windows\Codium.pdb
 C:\Users\maleb\Downloads\vscodium\Codium\obj\Debug\net10.0-windows\Codium.csproj.Up2Date
 C:\Users\maleb\Downloads\vscodium\Codium\obj\Debug\net10.0-windows\Codium.genruntimeconfig.cache
 C:\Users\maleb\Downloads\vscodium\Codium\obj\Debug\net10.0-windows\ref\Codium.dll
+C:\Users\maleb\Downloads\vscodium\Codium\obj\Debug\net10.0-windows\resources\WelcomePage.baml
+C:\Users\maleb\Downloads\vscodium\Codium\obj\Debug\net10.0-windows\resources\WelcomePage.g.cs
+C:\Users\maleb\Downloads\vscodium\Codium\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs

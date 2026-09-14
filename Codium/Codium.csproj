@@ -5,7 +5,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="resources\**\*" />
+    <Resource Include="resources\**\*" Exclude="resources\**\*.xaml" />
     <Resource Include="..\resources\ico-sets\favicon.ico" Link="resources\favicon.ico" />
     <Resource Include="..\resources\favicon.png" Link="resources\favicon.png" />
   </ItemGroup>
