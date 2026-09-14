@@ -4,3 +4,6 @@
 [submodule "ColorPicker"]
 	path = ColorPicker
 	url = https://github.com/PixiEditor/ColorPicker
+[submodule "update-api"]
+	path = update-api
+	url = https://github.com/ColbemLLC/update-api.git
